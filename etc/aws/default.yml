@@ -2,7 +2,7 @@
 
 jenkins:
   environment:
-    AWS_KEYPAIR: "${AWS_KEYPAIR}"
+    AWS_KEYPAIR: "FTDP-3"
     AWS_VPC_ID: "${AWS_VPC_ID}"
     AWS_SUBNET_ID: "${AWS_SUBNET_ID}"
     AWS_INSTANCE_TYPE: "${AWS_INSTANCE_TYPE}"

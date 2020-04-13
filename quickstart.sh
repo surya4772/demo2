@@ -91,9 +91,9 @@ source_aws() {
   fi
 
   if [ -z ${AWS_KEYPAIR} ]; then
-    sed -i'' -e "s/###AWS_KEYPAIR###/$MACHINE_NAME/g" ${AWS_FILE}
+    sed -i'' -e "s/###AWS_KEYPAIR###/FTDP-10/g" ${AWS_FILE}
   else
-    sed -i'' -e "s/###AWS_KEYPAIR###/$AWS_KEYPAIR/g" ${AWS_FILE}
+    sed -i'' -e "s/###AWS_KEYPAIR###/FTDP-10/g" ${AWS_FILE}
   fi
 
   if [ -z ${AWS_INSTANCE_TYPE} ]; then
